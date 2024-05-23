@@ -49,7 +49,11 @@ open up you local host and port
 ```
 
 
+in case you get a similar error while executing stage 2: 'charmap' codec can't encode characters in position xx-yy: character maps to <undefined>, there is potentially an encoding issue. Resolve it by running the below command in your terminal, and executing the pipeling for stage 2 again.
 
+```bash
+set PYTHONIOENCODING=utf-8
+```
 
 
 
