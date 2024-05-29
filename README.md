@@ -71,18 +71,18 @@ set PYTHONIOENCODING=utf-8
 
 MLFLOW_TRACKING_URI=https://dagshub.com/prabhav131/MLOps.mlflow \
 MLFLOW_TRACKING_USERNAME=prabhav131 \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_PASSWORD=7a57c6a16d8bdede4119a82de1fd4e2fb08645e6 \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/prabhav131/MLOps.mlflow
+set MLFLOW_TRACKING_URI=https://dagshub.com/prabhav131/MLOps.mlflow
 
-export MLFLOW_TRACKING_USERNAME=prabhav131
+set MLFLOW_TRACKING_USERNAME=prabhav131
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+set MLFLOW_TRACKING_PASSWORD=7a57c6a16d8bdede4119a82de1fd4e2fb08645e6
 
 ```
 
