@@ -1,111 +1,19 @@
-[2024-05-29 19:38:21,292: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-05-29 19:38:21,307: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:38:21,307: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:38:21,310: INFO: common: created directory at: artifacts]
-[2024-05-29 19:38:21,310: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-05-29 19:38:21,311: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-05-29 19:38:27,047: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-05-29 19:38:28,044: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x]
-[2024-05-29 19:38:28,044: INFO: main: *******************]
-[2024-05-29 19:38:28,044: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
-[2024-05-29 19:38:28,044: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:38:28,054: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:38:28,055: INFO: common: created directory at: artifacts]
-[2024-05-29 19:38:28,057: INFO: common: created directory at: artifacts/prepare_base_model]
-[2024-05-29 19:38:28,945: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
-
-x==========x]
-[2024-05-29 19:38:28,946: INFO: main: *******************]
-[2024-05-29 19:38:28,947: INFO: main: >>>>>> stage Training started <<<<<<]
-[2024-05-29 19:38:28,948: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:38:28,949: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:38:28,950: INFO: common: created directory at: artifacts]
-[2024-05-29 19:38:28,951: INFO: common: created directory at: artifacts\training]
-[2024-05-29 19:39:41,355: INFO: main: >>>>>> stage Training completed <<<<<<
-
-x==========x]
-[2024-05-29 19:39:41,357: INFO: main: *******************]
-[2024-05-29 19:39:41,357: INFO: main: >>>>>> stage Evaluation started <<<<<<]
-[2024-05-29 19:39:41,362: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:39:41,363: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:39:41,365: INFO: common: created directory at: artifacts]
-[2024-05-29 19:40:04,122: INFO: common: json file saved at: scores.json]
-[2024-05-29 19:40:09,478: INFO: main: >>>>>> stage Evaluation completed <<<<<<
-
-x==========x]
-[2024-05-29 19:44:11,605: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-05-29 19:44:11,605: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:44:11,605: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:44:11,605: INFO: common: created directory at: artifacts]
-[2024-05-29 19:44:11,620: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-05-29 19:44:11,620: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-05-29 19:44:24,950: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-05-29 19:44:25,949: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x]
-[2024-05-29 19:44:25,949: INFO: main: *******************]
-[2024-05-29 19:44:25,950: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
-[2024-05-29 19:44:25,953: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:44:25,956: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:44:25,957: INFO: common: created directory at: artifacts]
-[2024-05-29 19:44:25,958: INFO: common: created directory at: artifacts/prepare_base_model]
-[2024-05-29 19:44:26,997: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
-
-x==========x]
-[2024-05-29 19:44:26,997: INFO: main: *******************]
-[2024-05-29 19:44:26,997: INFO: main: >>>>>> stage Training started <<<<<<]
-[2024-05-29 19:44:26,997: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:44:26,997: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:44:26,997: INFO: common: created directory at: artifacts]
-[2024-05-29 19:44:26,997: INFO: common: created directory at: artifacts\training]
-[2024-05-29 19:45:35,137: INFO: main: >>>>>> stage Training completed <<<<<<
-
-x==========x]
-[2024-05-29 19:45:35,137: INFO: main: *******************]
-[2024-05-29 19:45:35,137: INFO: main: >>>>>> stage Evaluation started <<<<<<]
-[2024-05-29 19:45:35,137: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:45:35,146: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:45:35,147: INFO: common: created directory at: artifacts]
-[2024-05-29 19:45:59,283: INFO: common: json file saved at: scores.json]
-[2024-05-29 19:46:03,772: INFO: main: >>>>>> stage Evaluation completed <<<<<<
-
-x==========x]
-[2024-05-29 19:50:56,811: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-05-29 19:50:56,811: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:50:56,827: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:50:56,828: INFO: common: created directory at: artifacts]
-[2024-05-29 19:50:56,828: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-05-29 19:50:56,829: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-05-29 19:51:10,875: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-05-29 19:51:11,655: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x]
-[2024-05-29 19:51:11,655: INFO: main: *******************]
-[2024-05-29 19:51:11,655: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
-[2024-05-29 19:51:11,655: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:51:11,655: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:51:11,655: INFO: common: created directory at: artifacts]
-[2024-05-29 19:51:11,655: INFO: common: created directory at: artifacts/prepare_base_model]
-[2024-05-29 19:51:12,480: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
-
-x==========x]
-[2024-05-29 19:51:12,490: INFO: main: *******************]
-[2024-05-29 19:51:12,490: INFO: main: >>>>>> stage Training started <<<<<<]
-[2024-05-29 19:51:12,490: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:51:12,492: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:51:12,492: INFO: common: created directory at: artifacts]
-[2024-05-29 19:51:12,492: INFO: common: created directory at: artifacts\training]
-[2024-05-29 19:52:17,754: INFO: main: >>>>>> stage Training completed <<<<<<
-
-x==========x]
-[2024-05-29 19:52:17,754: INFO: main: *******************]
-[2024-05-29 19:52:17,754: INFO: main: >>>>>> stage Evaluation started <<<<<<]
-[2024-05-29 19:52:17,763: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-05-29 19:52:17,765: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-05-29 19:52:17,766: INFO: common: created directory at: artifacts]
-[2024-05-29 19:52:39,238: INFO: common: json file saved at: scores.json]
-[2024-05-29 19:52:43,331: INFO: main: >>>>>> stage Evaluation completed <<<<<<
-
-x==========x]
+[2024-05-30 11:59:25,569: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.21.114:8080]
+[2024-05-30 11:59:25,571: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-30 11:59:33,169: INFO: _internal: 127.0.0.1 - - [30/May/2024 11:59:33] "GET / HTTP/1.1" 200 -]
+[2024-05-30 11:59:41,201: INFO: _internal: 127.0.0.1 - - [30/May/2024 11:59:41] "POST /predict HTTP/1.1" 200 -]
+[2024-05-30 11:59:49,922: INFO: _internal: 127.0.0.1 - - [30/May/2024 11:59:49] "POST /predict HTTP/1.1" 200 -]
+[2024-05-30 11:59:55,447: INFO: _internal: 127.0.0.1 - - [30/May/2024 11:59:55] "POST /predict HTTP/1.1" 200 -]
+[2024-05-30 12:00:00,360: INFO: _internal: 127.0.0.1 - - [30/May/2024 12:00:00] "POST /predict HTTP/1.1" 200 -]
+[2024-05-30 12:00:07,060: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001F146A3B560> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-05-30 12:00:07,060: INFO: _internal: 127.0.0.1 - - [30/May/2024 12:00:07] "POST /predict HTTP/1.1" 200 -]
+[2024-05-30 12:01:10,905: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.21.114:8080]
+[2024-05-30 12:01:10,905: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-30 12:01:14,174: INFO: _internal: 127.0.0.1 - - [30/May/2024 12:01:14] "GET / HTTP/1.1" 200 -]
+[2024-05-30 12:02:26,465: INFO: _internal: 127.0.0.1 - - [30/May/2024 12:02:26] "POST /predict HTTP/1.1" 200 -]
