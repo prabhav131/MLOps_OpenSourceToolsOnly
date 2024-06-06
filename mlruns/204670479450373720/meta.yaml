@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/204670479450373720
+creation_time: 1717414420485
+experiment_id: '204670479450373720'
+last_update_time: 1717414420485
+lifecycle_stage: active
+name: VGG16Experiment

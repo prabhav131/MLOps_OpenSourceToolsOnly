@@ -1,0 +1,2 @@
+1. Git push not working. Evaluation pipeline not pushed to remote.
+2. Model logging is not working properly. Was able to log the model only once but not after that.

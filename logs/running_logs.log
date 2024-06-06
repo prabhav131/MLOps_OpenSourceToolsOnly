@@ -1,19 +1,42 @@
-[2024-05-30 11:59:25,569: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:8080
- * Running on http://172.16.21.114:8080]
-[2024-05-30 11:59:25,571: INFO: _internal: [33mPress CTRL+C to quit[0m]
-[2024-05-30 11:59:33,169: INFO: _internal: 127.0.0.1 - - [30/May/2024 11:59:33] "GET / HTTP/1.1" 200 -]
-[2024-05-30 11:59:41,201: INFO: _internal: 127.0.0.1 - - [30/May/2024 11:59:41] "POST /predict HTTP/1.1" 200 -]
-[2024-05-30 11:59:49,922: INFO: _internal: 127.0.0.1 - - [30/May/2024 11:59:49] "POST /predict HTTP/1.1" 200 -]
-[2024-05-30 11:59:55,447: INFO: _internal: 127.0.0.1 - - [30/May/2024 11:59:55] "POST /predict HTTP/1.1" 200 -]
-[2024-05-30 12:00:00,360: INFO: _internal: 127.0.0.1 - - [30/May/2024 12:00:00] "POST /predict HTTP/1.1" 200 -]
-[2024-05-30 12:00:07,060: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001F146A3B560> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
-[2024-05-30 12:00:07,060: INFO: _internal: 127.0.0.1 - - [30/May/2024 12:00:07] "POST /predict HTTP/1.1" 200 -]
-[2024-05-30 12:01:10,905: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:8080
- * Running on http://172.16.21.114:8080]
-[2024-05-30 12:01:10,905: INFO: _internal: [33mPress CTRL+C to quit[0m]
-[2024-05-30 12:01:14,174: INFO: _internal: 127.0.0.1 - - [30/May/2024 12:01:14] "GET / HTTP/1.1" 200 -]
-[2024-05-30 12:02:26,465: INFO: _internal: 127.0.0.1 - - [30/May/2024 12:02:26] "POST /predict HTTP/1.1" 200 -]
+[2024-06-03 17:01:38,049: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-03 17:01:38,053: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-03 17:01:38,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-03 17:01:38,053: INFO: common: created directory at: artifacts]
+[2024-06-03 17:01:38,056: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-03 17:01:38,056: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-03 17:01:56,077: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-03 17:01:57,395: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-03 17:01:57,397: INFO: main: *******************]
+[2024-06-03 17:01:57,397: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-03 17:01:57,399: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-03 17:01:57,402: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-03 17:01:57,404: INFO: common: created directory at: artifacts]
+[2024-06-03 17:01:57,406: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-03 17:01:58,582: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-03 17:01:58,583: INFO: main: *******************]
+[2024-06-03 17:01:58,583: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-03 17:01:58,584: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-03 17:01:58,584: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-03 17:01:58,584: INFO: common: created directory at: artifacts]
+[2024-06-03 17:01:58,588: INFO: common: created directory at: artifacts\training]
+[2024-06-03 17:01:58,589: INFO: common: created directory at: model]
+[2024-06-03 17:03:15,877: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-03 17:03:15,881: INFO: main: *******************]
+[2024-06-03 17:03:15,881: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2024-06-03 17:03:15,882: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-03 17:03:15,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-03 17:03:15,882: INFO: common: created directory at: artifacts]
+[2024-06-03 17:03:39,164: INFO: common: json file saved at: scores.json]
+[2024-06-03 17:03:39,559: INFO: model_evaluation_mlflow: >>>>>> time to executedummy predict function for inferring signature is 0.38945841789245605 seconds <<<<<<]
+[2024-06-03 17:03:41,154: INFO: model_evaluation_mlflow: >>>>>>> logged experiment params <<<<<<]
+[2024-06-03 17:03:41,174: INFO: model_evaluation_mlflow: >>>>>>> logged experiment metrics <<<<<<]
+[2024-06-03 17:03:41,193: INFO: model_evaluation_mlflow: >>>>>>> completed mlflow run <<<<<<]
+[2024-06-03 17:03:41,193: INFO: main: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x]

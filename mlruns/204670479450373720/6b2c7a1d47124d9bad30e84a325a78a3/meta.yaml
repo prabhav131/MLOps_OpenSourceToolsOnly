@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/204670479450373720/6b2c7a1d47124d9bad30e84a325a78a3/artifacts
+end_time: 1717414421177
+entry_point_name: ''
+experiment_id: '204670479450373720'
+lifecycle_stage: active
+run_id: 6b2c7a1d47124d9bad30e84a325a78a3
+run_name: gifted-colt-804
+run_uuid: 6b2c7a1d47124d9bad30e84a325a78a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717414420977
+status: 3
+tags: []
+user_id: prabhav131

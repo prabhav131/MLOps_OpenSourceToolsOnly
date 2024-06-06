@@ -57,10 +57,14 @@ class ConfigurationManager:
         create_directories([
             Path(training.root_dir)
         ])
-
+        create_directories([
+            Path(training.final_model_dir)
+        ])
         training_config = TrainingConfig(
             root_dir=Path(training.root_dir),
             trained_model_path=Path(training.trained_model_path),
+            final_model_dir=Path(training.final_model_dir),
+            final_trained_model_path=Path(training.final_trained_model_path),
             updated_base_model_path=Path(prepare_base_model.updated_base_model_path),
             training_data=Path(training_data),
             params_epochs=params.EPOCHS,
@@ -75,7 +79,7 @@ class ConfigurationManager:
         eval_config = EvaluationConfig(
             path_of_model="artifacts/training/model.keras",
             training_data="artifacts/data_ingestion/kidney-ct-scan-image",
-            mlflow_uri="https://dagshub.com/prabhav131/MLOps.mlflow",
+            mlflow_uri="http://127.0.0.1:5000",
             all_params=self.params,
             params_image_size=self.params.IMAGE_SIZE,
             params_batch_size=self.params.BATCH_SIZE
